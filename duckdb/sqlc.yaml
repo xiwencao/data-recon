@@ -1,0 +1,10 @@
+version: 1
+packages:
+  - path: "db/"
+    name: "db"
+    engine: "postgresql"
+    sql_package: "pgx/v5"
+    schema: "db/schema.sql"
+    queries: "db/query.sql"
+    emit_json_tags: true
+  
