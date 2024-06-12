@@ -1,7 +1,7 @@
 package duckdb
 
 import (
-	"db"
+	"github.com/xiwencao/data-recon/duckdb/db"
 
 	_ "github.com/marcboeker/go-duckdb"
 )
